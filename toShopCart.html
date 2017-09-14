@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/toShopCart.css"  />
+	<link rel="stylesheet" type="text/css" href="css/public.css"  />
+	<link rel="stylesheet" type="text/css" href="icofont/iconfont.css"  />
+	<body>
+		<!--top start-->
+		<div id="top">
+			<ul class="left">
+				<li><a href="login.html" style="color: red;">亲，请登录</a></li>	
+				<li><a href="register.html">免费注册</a></li>	
+				<li><a href="#">手机逛淘宝</a></li>	
+			</ul>
+			<ul class="right">
+				<li><a href="#"><i class="iconfont" style="color: red;">&#xe790;</i>网站导航</a></li>		
+				<li><a href="#">联系客服</a></li>	
+				<li><a href="#">卖家中心</a></li>	
+				<li><a href="#">商品分类</a></li>	
+				<li class="select"><a href="#"><i class="iconfont" >&#x3432;</i>收藏夹</a>
+						<ul class="menu">
+							<li><a href="#">收藏的宝贝</a></li>	
+							<li><a href="#">收藏的店铺</a></li>	
+						</ul>
+				</li>	
+				<li><a href="shopCart.html"><i class="iconfont" style="color: red;">&#xe73d;</i>购物车</a></li>	
+				<li class="select"><a href="#">我的淘宝</a>
+						<ul class="menu">
+							<li><a href="#">已买到的宝贝</a></li>	
+							<li><a href="#">我的足迹</a></li>	
+							<li><a href="#">爱逛街</a></li>
+							<li><a href="#">淘宝达人</a></li>	
+							<li><a href="#">新欢</a></li>
+						</ul>
+				</li>	
+				<li><a href="index.html" style="color: red;">淘宝网首页</a></li>	
+			</ul>
+		</div>
+		<!--top over-->
+		<!--section start-->
+		<section>
+			<div id="success">
+				<!--<a href="#" id="img"><img src="img/g1.jpg" /></a>
+				<p class="name">【百草味-仁仁果175g】每日坚果 混合果仁天天孕妇零食什锦综合</p>				
+				<img src="img/success.jpg" id="pic"/>
+				<span>小计:28.9</span>
+				<p id="button">
+					<a href="allgoods.html" class="button">返回商品列表</a>
+					<a href="shopCart.html" class="button" id="btn">去购物车结算</a>					
+				</p>-->
+			</div>
+			<div id="same">
+				<span><h2>相似精品</h2></span>
+				<ul class="list">
+					<!--<li>
+						<a href="#"><img src="img/same1.jpg" /></a>
+						<a href="#"><p id="name">满减【百草味-牛轧奶芙160g】蔓越莓沙琪玛美味甜点心营养</p></a>
+						<p class="price">17.8</p>
+					</li>-->					
+				</ul>
+			</div>
+		</section>
+		<!--section over-->
+		<!--footer start-->
+		<footer>
+			<div id="footer_c">
+				<img src="img/footer.png" />
+				<ul id="first">
+					<li><a href="#">阿里巴巴集团</a></li>
+					<li><a href="#">阿里巴巴国际站</a></li>
+					<li><a href="#">阿里巴巴中国站</a></li>
+					<li><a href="#">全球速卖通</a></li>
+					<li><a href="#">淘宝网</a></li>
+					<li><a href="#">天猫</a></li>
+					<li><a href="#">聚划算</a></li>
+					<li><a href="#">一淘</a></li>
+					<li><a href="#">阿里妈妈</a></li>
+					<li><a href="#">阿里云计算</a></li>
+					<li><a href="#">云os</a></li>
+					<li><a href="#">万网</a></li>
+					<li><a href="#">中国雅虎</a></li>
+					<li id="last"><a href="#">支付宝</a></li>
+				</ul>
+				<ul id="second">
+					<li><a href="#">关于淘宝</a></li>
+					<li><a href="#">合作伙伴</a></li>
+					<li><a href="#">营销中心</a></li>
+					<li><a href="#">联系客服</a></li>
+					<li><a href="#">开放平台</a></li>
+					<li><a href="#">诚征英才</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">法律声明</a></li>
+					<li class="last">© 2015 Taobao.com 版权所有</li>
+				</ul>
+				<img src="img/footer_img.jpg"  id="person"/>
+			</div>
+		</footer>
+		<!--footer over-->
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/template.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/toShopCart.js"></script>
+<script type="text/html" id="shoplist">
+	{{each arr as value i}}
+		<li>
+			<a href="#"><img src="img/{{arr[i].src}}" /></a>
+			<a href="#"><p id="name">{{arr[i].name}}</p></a>
+			<p class="price">{{arr[i].price}}</p>
+		</li>
+	{{/each}}
+</script>
+<!--<script type="text/html" id="list">
+	{{each arr as value i}}
+		<a href="#" id="img"><img src="img/{{arr[i].src}}" /></a>
+		<p class="name">{{arr[i].name}}</p>				
+		<img src="img/success.jpg" id="pic"/>
+		<span>小计:{{arr[i].price}}</span>
+		<p id="button">
+			<a href="details.html" class="button">返回商品详情</a>
+			<a href="shopCart.html" class="button" id="btn">去购物车结算</a>					
+		</p>
+	{{/each}}
+</script>-->

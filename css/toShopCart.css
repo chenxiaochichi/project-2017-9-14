@@ -1,0 +1,110 @@
+section {
+  width: 992px;
+  height: 1950px;
+  margin: 0 auto;
+}
+section #success {
+  height: 200px;
+  border: 1px #e8e8e8 solid;
+  margin-top: 40px;
+}
+section #success #img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+section #success #img img {
+  float: left;
+  margin-right: 20px;
+}
+section #success .name {
+  float: left;
+  width: 300px;
+  padding-top: 40px;
+  margin: 0 20px;
+}
+section #success #pic {
+  float: right;
+  width: 187px;
+  height: 32px;
+}
+section #success span {
+  float: right;
+  margin: 10px 20px 0 0;
+  color: red;
+  font-size: 18px;
+}
+section #success #button {
+  width: 348px;
+  height: 42px;
+  float: left;
+  margin-top: 60px;
+}
+section #success #button .button {
+  color: red;
+  text-align: center;
+  line-height: 42px;
+  font-size: 18px;
+  display: block;
+  width: 160px;
+  height: 42px;
+  border: 1px red solid;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+section #success #button #btn {
+  background: red;
+  color: white;
+}
+section #same {
+  width: 992px;
+  height: 1572px;
+  margin: 32px auto;
+  border: 1px #e8e8e8 solid;
+}
+section #same span {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  background: #fff2e8;
+}
+section #same span h2 {
+  color: #e55162;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 40px;
+}
+section #same ul {
+  height: 1527px;
+  padding: 25px;
+  background: #fcfcfc;
+}
+section #same ul li {
+  float: left;
+  width: 180px;
+  height: 280px;
+  margin-right: 10px;
+}
+section #same ul li a {
+  color: black;
+  font-size: 14px;
+}
+section #same ul li a #name {
+  width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+section #same ul li a:hover {
+  text-decoration: underline;
+}
+section #same ul li p {
+  margin-top: 10px;
+}
+section #same ul li .price {
+  color: red;
+}
+section #same ul li:nth-child(5n) {
+  margin-right: 0;
+}

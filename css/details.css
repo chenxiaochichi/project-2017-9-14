@@ -1,0 +1,274 @@
+/*goods*/
+#goods{
+	width: 1140px;
+	height: 550px;
+	margin: 12px auto;
+	margin-bottom: 20px;
+	border: 1px #e8e8e8 solid;
+}
+#goods #box{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	padding: 20px;
+	float: left;
+}
+#goods #box ul{
+	overflow: hidden;
+	position: absolute;
+	left: 20px;
+	top: 440px;
+	width: 350px;
+}
+#goods #box li{
+	width: 60px;
+	float: left;
+}
+#goods .small{
+	width: 400px;
+	height: 400px;
+	cursor: move;
+	position: relative;
+}
+#goods .small img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#goods #big{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 430px;
+	top: 20px;
+	overflow: hidden;
+	border: 1px #ccc solid;
+	display: none;
+	z-index: 999;
+}
+#goods .bigImg{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#goods #mask{
+	width: 200px;
+	height: 200px;
+	background: #999;
+	opacity: 0.4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#goods #content{
+	width: 503px;
+	height: 633px;
+	position: absolute;
+	left: 590px;
+	top: 260px;	
+	float: left;
+}
+#goods #content h3{
+	font-weight: 700;
+	font-size: 16px;
+	color: #3c3c3c;
+	margin-bottom: 10px;
+}
+#goods #content #h{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+#goods #content a{
+	display: block;
+	width: 135px;
+	height: 40px;
+	background: #ffe4d0;
+	color: red;
+	margin: 30px 10px 20px 5px;
+	margin-right: 20px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	border: 1px pink solid;
+}
+#goods #content .car{
+	width: 184px;
+	background: #FF4400;
+	color: white;
+}
+#goods #look{
+	width: 190px;
+	height: 535px;
+	float: right;
+	border-left: 1px #e8e8e8 solid;
+	padding-top: 16px;
+}
+#goods #look p{
+	color: #999;
+	font-size: 14px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+#goods #look img{
+	margin-left: 30px;
+}
+/*det*/
+#det{
+	width: 1140px;
+	height: 15417px;
+	margin: 0 auto;
+	border: 1px #e8e8e8 solid;
+	background: #fafafa;
+}
+#nav2{
+	width: 1140px;
+	height: 46px;
+	margin: 0 auto;
+	border: 1px #e8e8e8 solid;
+	border-top: none;
+	background: #f6f6f6;
+}
+#nav2 input{
+	float: left;
+	width: 166px;
+	height: 22px;
+	background: url(../img/search.jpg) no-repeat right;
+	background-color: white;
+	margin: 10px 15px 7px 15px;
+	border: 1px #c5c5c5 solid;
+}
+#nav2 ul{
+	float: left;
+}
+#nav2 ul li{
+	float: left;
+	width: 130px;
+	text-align: center;
+	height: 46px;
+	line-height: 46px;
+	border-right: 1px #e5e5e5 solid;
+}
+#nav2 ul .first{
+	border-left: 1px #e5e5e5 solid;
+}
+#nav2 #tab_ ul .active{
+	color: red;
+	border-top: 2px red solid;
+	background: white;
+}
+#nav2 ul .last{
+	border-right: none;
+	margin-left: 256px;
+}
+#det .left{
+	width: 200px;
+	height: 15417px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	background: white;
+}
+#det .left .tuijian{
+	width: 200px;
+	height: 24px;
+	background: #272c40;
+	color: white;
+	margin: 12px 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+#det .left .tuijian span{
+	float: left;
+	margin-left: 10px;
+}
+#det .left .tuijian a{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+}
+#det .left .shoplist li p{
+	color: black;
+}
+#det .left h3{
+	width: 200px;
+	height: 24px;
+	background: #272c40;
+	color: white;
+	margin-top: 12px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#det .left #select ul li{
+	height: 30px;
+	line-height: 30px;
+	background-color: #eee;
+	border-bottom: 1px #ccc solid;
+}
+#det .left #select ul li a{
+	font-size: 12px;
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	float: left;
+	margin-left: 26px;
+}
+#det .left #tab ul li{
+	float: left;
+	font-size: 14px;
+	margin: 10px;
+}
+#det .left #tab .active{
+	border: 1px #e8e8e8 solid;
+	border-bottom: none;
+}
+#det .left #tab .main{
+	display: none;
+}
+#det .left #tab .selected{
+	display: block;
+}
+#det .left .more{
+	color: black;
+	font-size: 14px;
+}
+#det .left .more:hover{
+	text-decoration: underline;
+}
+#det .center{
+	width: 758px;
+	height: 15417px;
+	float: left;
+	border-right: 1px #e8e8e8 solid;
+	background: white;
+}
+#det .center .shoplist{
+	width: 742px;
+	margin: 0 auto;
+}
+#det .center .shoplist li{
+	float: left;
+	width: 241px;
+	height: 276px;
+	margin: 2px;
+	border: 1px #e8e8e8 solid;
+}
+#det .center .shoplist li p{
+	color: black;
+	text-align: center;
+}
+#det .center .shoplist li button{
+	margin: 8px 85px;
+}
+#det .center .clearfix{
+	width: 758px;
+	text-align: center;
+}
+#det .center .clearfix li{
+	float: left;
+	margin: 12px;
+}
+#det .center .clearfix li a{
+	color: blue;
+}
+

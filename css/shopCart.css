@@ -1,0 +1,86 @@
+#shopcart {
+  min-height: 500px;
+  width: 990px;
+  margin: 0 auto;
+}
+#shopcart #sum {
+  width: 990px;
+  height: 50px;
+  background: #e5e5e5;
+  line-height: 50px;
+  font-size: 14px;
+}
+#shopcart #sum p {
+  float: right;
+  margin-right: 20px;
+}
+#shopcart #sum p span {
+  color: red;
+  font-size: 18px;
+}
+#shopcart #sum #acount {
+  width: 120px;
+  background: #b0b0b0;
+  color: white;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+#shopcart .shoplist {
+  margin-top: 50px;
+}
+#shopcart .shoplist .shop-item {
+  width: 990px;
+  height: 120px;
+  background: #fcfcfc;
+  border: 1px #e8e8e8 solid;
+  padding-left: 20px;
+  margin-bottom: 54px;
+}
+#shopcart .shoplist .shop-item p {
+  float: left;
+  margin-right: 12px;
+}
+#shopcart .shoplist .shop-item a {
+  color: black;
+  font-size: 14px;
+  float: left;
+  margin-right: 40px;
+}
+#shopcart .shoplist .shop-item #img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+#shopcart .shoplist .shop-item #name {
+  margin-top: 30px;
+  width: 200px;
+}
+#shopcart .shoplist .shop-item #price,
+#shopcart .shoplist .shop-item #total {
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#shopcart .shoplist .shop-item #sign {
+  width: 80px;
+  height: 25px;
+  border: 1px #e8e8e8 solid;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+#shopcart .shoplist .shop-item #sign span {
+  margin: 8px;
+}
+#shopcart .shoplist .shop-item #total {
+  color: red;
+  margin-left: 60px;
+}
+#shopcart .shoplist .shop-item .del {
+  font-size: 16px;
+  margin-left: 90px;
+  margin-top: 50px;
+}

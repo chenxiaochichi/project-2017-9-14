@@ -1,0 +1,56 @@
+[
+	{
+		"id" : "shop01",
+		"name" : "夏威夷果",
+		"src" : "list1.jpg",
+		"price" : "33.9"
+	},
+	{
+		"id" : "shop02",
+		"name" : "仁仁果",
+		"src" : "list2.jpg",
+		"price" : "29.9"
+	},
+	{
+		"id" : "shop03",
+		"name" : "牛扎奶芙",
+		"src" : "list3.jpg",
+		"price" : "19.9"
+	},
+	{
+		"id" : "shop04",
+		"name" : "夏威夷果",
+		"src" : "list1.jpg",
+		"price" : "33.9"
+	},
+	{
+		"id" : "shop05",
+		"name" : "仁仁果",
+		"src" : "list2.jpg",
+		"price" : "29.9"
+	},
+	{
+		"id" : "shop06",
+		"name" : "牛扎奶芙",
+		"src" : "list3.jpg",
+		"price" : "19.9"
+	},
+	{
+		"id" : "shop07",
+		"name" : "夏威夷果",
+		"src" : "list1.jpg",
+		"price" : "33.9"
+	},
+	{
+		"id" : "shop08",
+		"name" : "仁仁果",
+		"src" : "list2.jpg",
+		"price" : "29.9"
+	},
+	{
+		"id" : "shop09",
+		"name" : "牛扎奶芙",
+		"src" : "list3.jpg",
+		"price" : "19.9"
+	}
+]
